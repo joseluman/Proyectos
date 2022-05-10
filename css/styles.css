@@ -1,0 +1,103 @@
+body,
+html {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 650px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: #bbbbbb;
+    opacity: 0.4;
+    height: 75px;
+    width: 50px;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    opacity: 0.9;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after{
+    color: #000;
+}
+span.swiper-pagination-bullet {
+    border-radius: 0;
+    width: 50px;
+}
+.swiper-pagination-bullet-active{
+    background-color: #000;
+}
+.navbar{
+    background-color: #011432;
+}
+.navbar-brand img{
+    width: 64px;
+}
+.navbar-brand{
+    margin-left: 15px;
+}
+.nav-link {
+    color: white!important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.nav-link:hover{
+    font-weight: bold;
+}
+/*Desktop*/
+@media screen and (min-width:40em){
+    .navbar-collapse{
+        justify-content: end;
+    }
+}
+/*Mobile*/
+@media screen and (max-width: 40em){
+    .swiper {
+        width: 100%;
+        height: 390px;
+    }
+    .swiper-button-prev,
+    .swiper-button-next{
+        display: none;
+    }  
+}
