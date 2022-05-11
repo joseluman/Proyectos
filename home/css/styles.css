@@ -115,6 +115,23 @@ h2.title-footer,
 .content-footer p{
     font-weight: 100;
 }
+.copyright{
+    background-color: #3347c1;
+}
+.copyright span{
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.redes span{
+    color: white;
+    letter-spacing: 3px;
+}
+.redes svg{
+    width: 50px;
+    margin: 10px;
+    fill: white;
+}
 /*Desktop*/
 @media screen and (min-width:40em){
     .navbar-collapse{

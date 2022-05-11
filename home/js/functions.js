@@ -1,5 +1,6 @@
 window.onload = function() {
     sliderPrincipal();
+    bounceLinkedin();
 };
 
 const sliderPrincipal = () => {
@@ -12,5 +13,16 @@ const sliderPrincipal = () => {
         pagination: {
             el: ".swiper-pagination",
         },
+    });
+}
+
+const bounceLinkedin = () => {
+    const svgIcon = document.querySelector('.redes svg');
+
+    svgIcon.addEventListener('mouseover', e => {
+        svgIcon.classList.add('animate__rubberBand');
+    });
+    svgIcon.addEventListener('mouseout', e => {
+        svgIcon.classList.remove('animate__rubberBand');
     });
 }
