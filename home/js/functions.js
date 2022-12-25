@@ -37,8 +37,9 @@ const bounceLinkedin = () => {
 }*/
 
 const toBrasil = () => {
+const conteiner = document.querySelector('.container-pdf');
+conteiner.insertAdjacentHTML("beforeend", '<audio class="audio" autoplay> <source src="assets/samba-do-brasil-ey-macalena.mp3" type="audio/mpeg"></audio>');
   const r = setInterval(function(){
-    const conteiner = document.querySelector('.audio').play();
     alert("Hola...");
     alert("Felicidades por encontrar el código qr dentro de la mochila jajaja...")
     alert("Tienes que esperar un poco ya que tu regalo se está generando en este momento ;)...");
@@ -47,7 +48,6 @@ const toBrasil = () => {
     alert("PD: Te amo <3")
     conteiner.getElementsByClassName.diplay = "block"
     clearInterval(r)
-
   }, 8000)
 }
 
