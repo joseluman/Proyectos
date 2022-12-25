@@ -45,6 +45,6 @@ const toBrasil = () => {
     alert("Espero te guste mucho.. :9");
     alert("PD: Te amo <3")
     clearInterval(r)
-  }, 1000)
+  }, 5000)
 }
 
