@@ -7,7 +7,7 @@ window.onload = function() {
     alert("Esta será una de las muchas aventuras que viviremos..."); 
     alert("Espero te guste mucho.. :9");
     alert("PD: Te amo <3")*/
-    audioFirst();
+    //audioFirst();
 };
 
 /*const sliderPrincipal = () => {
@@ -37,7 +37,7 @@ const bounceLinkedin = () => {
 }*/
 const audioFirst = () => {
     const conteiner = document.querySelector('.container-pdf');
-    conteiner.insertAdjacentHTML("beforeend", '<audio class="audio" autoplay=""> <source src="assets/samba-do-brasil-ey-macalena.mp3" type="audio/mpeg"></audio>');
+    conteiner.insertAdjacentHTML("beforeend", '');
 }
 const toBrasil = () => {
 
