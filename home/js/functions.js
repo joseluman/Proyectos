@@ -37,12 +37,12 @@ const bounceLinkedin = () => {
 }*/
 const audioFirst = () => {
     var sound = new Howl({
-        src: ['assets/samba-do-brasil-ey-macalena.mp3'],
+        src: ['samba-do-brasil-ey-macalena.mp3'],
         volume: 1.0,
       });
       sound.play()
 }
-const toBrasil = () => {
+/*const toBrasil = () => {
 
     alert("Hola...");
     alert("Felicidades por encontrar el código qr dentro de la mochila jajaja...")
@@ -52,5 +52,5 @@ const toBrasil = () => {
     alert("PD: Te amo <3")
     conteiner.getElementsByClassName.diplay = "block"
     clearInterval(r)
-}
+}*/
 
