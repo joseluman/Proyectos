@@ -37,7 +37,7 @@ const bounceLinkedin = () => {
 }*/
 const audioFirst = () => {
     var sound = new Howl({
-        src: ['samba-do-brasil-ey-macalena.mp3'],
+        src: ['gs://usach-eaee9.appspot.com/samba-do-brasil-ey-macalena.mp3'],
         volume: 1.0,
       });
       sound.play()
