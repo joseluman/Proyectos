@@ -7,7 +7,7 @@ window.onload = function() {
     alert("Esta será una de las muchas aventuras que viviremos..."); 
     alert("Espero te guste mucho.. :9");
     alert("PD: Te amo <3")*/
-    toBrasil();
+    //toBrasil();
 };
 
 /*const sliderPrincipal = () => {
