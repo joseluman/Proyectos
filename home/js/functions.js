@@ -7,7 +7,7 @@ window.onload = function() {
     alert("Esta será una de las muchas aventuras que viviremos..."); 
     alert("Espero te guste mucho.. :9");
     alert("PD: Te amo <3")*/
-    toBrasil();
+    audioFirst();
 };
 
 /*const sliderPrincipal = () => {
@@ -35,11 +35,12 @@ const bounceLinkedin = () => {
 
 
 }*/
-
+const audioFirst = () => {
+    const conteiner = document.querySelector('.container-pdf');
+    conteiner.insertAdjacentHTML("beforeend", '<audio class="audio" autoplay=""> <source src="assets/samba-do-brasil-ey-macalena.mp3" type="audio/mpeg"></audio>');
+}
 const toBrasil = () => {
-const conteiner = document.querySelector('.container-pdf');
-conteiner.insertAdjacentHTML("beforeend", '<audio class="audio" autoplay> <source src="assets/samba-do-brasil-ey-macalena.mp3" type="audio/mpeg"></audio>');
-  const r = setInterval(function(){
+
     alert("Hola...");
     alert("Felicidades por encontrar el código qr dentro de la mochila jajaja...")
     alert("Tienes que esperar un poco ya que tu regalo se está generando en este momento ;)...");
@@ -48,6 +49,5 @@ conteiner.insertAdjacentHTML("beforeend", '<audio class="audio" autoplay> <sourc
     alert("PD: Te amo <3")
     conteiner.getElementsByClassName.diplay = "block"
     clearInterval(r)
-  }, 8000)
 }
 
