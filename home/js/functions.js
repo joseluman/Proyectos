@@ -1,6 +1,7 @@
 window.onload = function() {
     sliderPrincipal();
     bounceLinkedin();
+    alert("funcionando el deploy")
 };
 
 const sliderPrincipal = () => {
@@ -25,4 +26,7 @@ const bounceLinkedin = () => {
     svgIcon.addEventListener('mouseout', e => {
         svgIcon.classList.remove('animate__rubberBand');
     });
+
+
 }
+
